@@ -6,14 +6,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+android:layout_margin="10dp"
 
     tools:context=".RegisterActivity">
-
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/boarder"
+    >
     <TextView
         android:id="@+id/textView"
       style="@style/common_button"
-        android:textSize="40sp"
-        android:text="Register Page..!" />
+        android:textSize="30sp"
+        android:text="Register/Login Page..!\nExplicit Intent" />
 
     <EditText
         android:id="@+id/editText_reg"
@@ -36,5 +42,33 @@
         style="@style/common_button"
         android:text="Save"
         android:onClick="saveAndContinoue"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/boarder"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/common_button"
+            android:textSize="30dp"
+            android:text="Share Text \nImplicit Intent "/>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            style="@style/common"
+            android:layout_margin="10dp"
+            android:inputType="textPersonName"
+            android:hint="Url" />
+
+        <Button
+            android:id="@+id/button"
+          style="@style/common_button"
+            android:text="Search"
+            android:onClick="openWeb"/>
+
+    </LinearLayout>
 
 </LinearLayout>

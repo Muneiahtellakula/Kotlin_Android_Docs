@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/git folder/Kotlin_Android_Docs/IntentsExample/app/src/main/res/drawable/boarder.xml" value="0.2703125" />
         <entry key="..\:/git folder/Kotlin_Android_Docs/IntentsExample/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
         <entry key="..\:/git folder/Kotlin_Android_Docs/IntentsExample/app/src/main/res/layout/activity_register.xml" value="0.24010416666666667" />
       </map>
