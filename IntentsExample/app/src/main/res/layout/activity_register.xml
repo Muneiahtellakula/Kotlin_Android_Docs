@@ -66,7 +66,7 @@ android:layout_margin="10dp"
         <Button
             android:id="@+id/button"
           style="@style/common_button"
-            android:text="Search"
+            android:text="Share"
             android:onClick="openWeb"/>
 
     </LinearLayout>
