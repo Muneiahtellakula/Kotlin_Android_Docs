@@ -6,10 +6,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/textView"
+      style="@style/common_button"
+        android:textSize="40sp"
+        android:text="Register Page..!" />
+
     <EditText
         android:id="@+id/editText_reg"
         style="@style/common"
+
         android:inputType="textPersonName"
         android:hint="Name"
         android:layout_margin="10dp"/>
@@ -27,4 +36,5 @@
         style="@style/common_button"
         android:text="Save"
         android:onClick="saveAndContinoue"/>
+
 </LinearLayout>
